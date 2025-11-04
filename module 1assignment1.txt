@@ -1,0 +1,636 @@
+Module 1 – Overview of IT Industry
+
+
+1.) Explain in your own words what a program is and how it functions.
+Ans..--> A program is a set of instructions written in a specific language that a computer can follow to perform a task or solve a problem. Think of it like a recipe — it tells the computer what steps to take, in what order, and under what conditions.
+
+How It Functions:
+
+Written by a human – A programmer writes the code using a programming language (like Python, Java, or C++).
+
+Translated for the computer – The code is converted into a form the computer understands (machine code) by a compiler or interpreter.
+
+Executed step-by-step – The computer reads the instructions and carries them out one by one. These might include:
+
+Doing calculations
+
+Storing or retrieving data
+
+Displaying output
+
+Making decisions (like "if this, do that")
+
+Repeating actions (loops).
+
+
+
+
+2) What are the key steps involved in the programming process?
+Ans..--> Key Steps in the Programming Process :
+
+* The programming process involves several key steps that help turn an idea into a working, efficient program.
+
+Key Steps in the Programming Process:
+
+
+
+Define the Problem – Understand what the program should do.
+
+Plan the Solution – Design the logic using pseudocode or flowcharts.
+
+Write the Code – Translate the plan into a programming language.
+
+Test the Program – Run it and check for errors.
+
+Debug – Fix any issues or bugs found.
+
+Refine – Improve and clean up the code.
+
+3) What are the main differences between high-level and low-level**
+
+**programminglanguages?**
+
+
+
+Ans..-->**High-level languages are user-friendly and good for most applications.
+
+Low-level languages are powerful for system-level programming but harder to use.
+
+4) Describe the roles of the client and server in web communication.**
+
+Ans..--> Client:**
+
+The device or application (like a web browser) that requests information.
+
+It sends a request to the server (e.g., asking for a webpage or data).
+
+**Server:**
+
+A computer or system that responds to the client's requests.
+
+It processes the request and sends back the required information (like an HTML page, image, or data).
+
+
+5) Explain the function of the TCP/IP model and its layers?**
+
+Ans..--> The TCP/IP model is a set of rules (protocols) that allow computers to communicate over the internet. It breaks down communication into layers, making it easier to design, manage, and troubleshoot networks.
+
+**Application Layer**
+
+Function: Provides services and user interfaces for communication.
+
+Examples: HTTP (web), FTP (file transfer), SMTP (email)
+
+
+
+**Transport Layer**
+
+Function: Manages data delivery between devices.
+
+
+
+**Protocols:**
+
+TCP (reliable, connection-based)
+
+UDP (faster, connectionless)
+
+
+
+**Internet Layer**
+
+Function: Handles addressing and routing of data across networks.
+
+Key Protocol: IP (Internet Protocol)
+
+
+
+**Network Access Layer** (or Link Layer)
+
+Function: Deals with physical transmission of data over the network (like cables, Wi-Fi).
+
+Includes: MAC addresses, Ethernet, etc.
+
+
+6) Explain Client Server Communication ?**
+
+Ans..--> Client-server communication is how devices exchange data on a network, especially over the internet.
+
+**How It Works:**
+
+
+
+**Client Sends a Request:**
+
+The client (like a web browser or app) asks for something — e.g., a webpage, file, or data.
+
+This request is sent over the internet to the server.
+
+
+
+**Server Processes the Request:**
+
+The server is a powerful computer that listens for requests.
+
+It processes the request, fetches the needed information, and prepares a response.
+
+
+
+**Server Sends a Response:**
+
+The server sends the data back to the client (e.g., HTML page, image, or result).
+
+
+
+**Client Displays or Uses the Data:**
+
+The client receives the response and shows it to the user or uses it in the application.
+
+
+7) How does broadband differ from fiber-optic internet?**
+
+Ans..--> Broadband** is a general term for high-speed internet (like DSL or cable).
+
+**Fiber-optic :** is a type of broadband that uses light through glass cables for much faster and more reliable internet.
+
+8) What are the differences between HTTP and HTTPS protocols?**
+
+Ans..--> HTTP stands for HyperText Transfer Protocol. It’s the basic protocol used to transfer data between your browser and websites.**
+
+**HTTPS stands for HyperText Transfer Protocol Secure. It’s the secure version of HTTP.**
+
+
+
+**Security:**
+
+HTTP sends data in plain text, which means information like passwords or credit card details can be intercepted by hackers.
+
+HTTPS encrypts the data using SSL/TLS protocols, making the information secure and unreadable to outsiders during transmission.
+
+
+
+**URL Indicator:**
+
+Websites using HTTP start with http://.
+
+Websites using HTTPS start with https:// and often show a padlock icon in the browser’s address bar.
+
+
+
+**Use Cases:**
+
+HTTP is okay for simple sites where security isn’t critical (like blogs or public info pages).
+
+HTTPS is essential for sites that handle sensitive data, such as online banking, shopping, email, or login pages.
+
+
+
+**Trust and SEO:**
+
+Browsers now warn users when visiting non-secure HTTP sites.
+
+HTTPS websites are favored in search engine rankings.
+
+9) What is the role of encryption in securing applications?**
+
+Ans..--> Encryption keeps data safe and private, making sure only the right people
+can access and trust the information within an application
+
+
+10) **What is the difference between system software and application software?**
+
+Ans..--> System software runs the computer and manages hardware.
+
+Application software helps users do specific tasks.
+
+
+
+11) **Whatis the significance of modularity in software architecture?**
+
+Ans..--> Modularity means designing software by breaking it into smaller, independent parts called modules
+
+**Easier to Understand:** Smaller modules are simpler to develop and understand than one big program.
+
+**Better Maintainability:** Fixing bugs or updating one module won’t affect others, making maintenance easier.
+
+**Reusability:** Modules can be reused in different programs or parts of the same program, saving time.
+
+**Parallel Development:** Different developers or teams can work on separate modules simultaneously, speeding up development.
+
+**Improved Testing:** Modules can be tested individually, which helps find and fix errors more efficiently.
+
+
+
+12) Why are layers important in software architecture?**
+
+Ans..--> **Layers organize software into separate levels, each with a specific role. This structure is important because it:
+
+**Improves Organization:** Each layer handles a distinct part of the system (e.g., user interface, business logic, data access), making the design clearer.
+
+**Enhances Maintainability:** Changes in one layer don’t directly affect others, so it’s easier to update or fix parts without breaking the whole system.
+
+**Supports Reusability:** Layers can be reused in different projects or parts of the system.
+
+**Facilitates Teamwork:** Different teams can work on different layers simultaneously without interfering with each other.
+
+**Increases Flexibility:** Layers can be modified or replaced independently, making the system adaptable to new requirements.
+
+
+
+13) Explain the importance of a development environment in software production.**
+
+Ans..--> A development environment is a set of tools and software that programmers use to write, test, and debug their code.
+
+**Why is it important?**
+
+**Provides Tools:** It includes editors, compilers, debuggers, and other utilities that make coding easier and more efficient.
+
+**Helps Detect Errors Early:** Developers can test and find bugs before the software is released.
+
+**Supports Collaboration:** It often allows multiple developers to work together smoothly, sharing code and resources.
+
+**Speeds Up Development:** Features like code completion, syntax highlighting, and version control speed up coding and reduce mistakes.
+
+**Simulates Real Environment:** Some development environments can mimic how the software will run in production, helping catch environment-specific issues.
+
+
+
+14) What is the difference between source code and machine code?**
+
+Ans..--> Source code is the set of instructions written by a programmer in a programming language that humans can read and understand. It’s like the “recipe” for the program.
+
+Machine code is the low-level code made up of binary numbers (0s and 1s) that a computer’s processor can directly execute.
+
+&nbsp;It’s the “final version” that the computer uses to perform tasks.
+
+15) Why is version control important in software development?**
+
+Ans..--> Version control is important in software development because it helps manage and track changes to the code over time.
+It allows multiple developers to work on the same project without overwriting each other's work.
+If mistakes happen, version control makes it easy to go back to earlier versions and fix problems.
+It also helps keep a history of changes, making collaboration, debugging, and project management much smoother and more organized.
+
+16) What are the benefits of using Github for students?**
+
+Ans..--> Learn Version Control:** GitHub helps students understand how to manage code changes and collaborate effectively using Git.
+
+**Collaboration:** Students can work together on projects easily, sharing code and tracking contributions.
+
+**Portfolio Building:** Students can showcase their projects publicly, which is great for resumes and job applications.
+
+**Access to Open Source:** GitHub hosts countless open-source projects, allowing students to explore, contribute, and learn from real-world code.
+
+**Free Resources:** GitHub offers free accounts for students, including access to useful tools and services like GitHub Pages and GitHub Classroom.
+
+**Project Management:** Features like issue tracking and project boards help students organize tasks and deadlines.
+
+17) What are the differences between open-source and proprietary software?**
+
+Ans..--> Open-source software** has its source code freely available for anyone to view, modify, and share. It encourages collaboration and community development. Examples include Linux and Mozilla Firefox.
+
+**Proprietary software** is owned by a company or individual, and its source code is kept secret. Users typically pay for a license to use it but can’t see or change the code.
+Examples include Microsoft Windows and Adobe Photoshop.
+
+18) How does GIT improve collaboration in a software development team?**
+
+Ans..--> Git improves collaboration in a software development team by allowing multiple developers to work on the same project simultaneously without overwriting each other’s work. It tracks every change made to the code, so team members can see what was done, when, and by whom. Git also helps manage different versions of the project through branches, letting developers work on new features or fixes independently before merging their work together. This reduces conflicts, makes it easier to review code, and helps keep the project organized and up-to-date.
+
+
+
+19) What is the role of application software in businesses?**
+
+Ans..--> Application software plays a crucial role in businesses by helping them perform specific tasks efficiently. It includes programs like word processors, spreadsheets, accounting software, customer relationship management (CRM) tools, and inventory systems. These applications automate routine work, improve productivity, manage data, support decision-making, and enhance communication within and outside the organization.
+
+
+
+20) What are the main stages of the software development process?**
+
+Ans..--> Requirement Analysis:** Understand what the users need and define the problem clearly.
+
+**Design:** Plan how the software will work, including its structure and user interface.
+
+**Implementation (Coding):** Write the actual code based on the design.
+
+**Testing:** Check the software for bugs and ensure it meets requirements**.**
+
+**Deployment:** Release the software for users to use.
+
+**Maintenance:** Fix issues, update, and improve the software over time**.**
+
+21) Why is the requirement analysis phase critical in software development?**
+
+Ans..--> The requirement analysis phase is critical because it defines what the software must do before any coding begins. If the requirements aren’t clear or accurate, the final product may not meet users’ needs, leading to wasted time and resources. This phase helps identify user expectations, project goals, and constraints, ensuring everyone involved understands the project scope. Getting this right reduces misunderstandings, prevents costly changes later, and lays a strong foundation for the entire development process.
+
+
+
+22) What is the role ofsoftware analysis in the development process?**
+
+Ans..-->The role of software analysis in the development process is to thoroughly understand and define the problem that the software needs to solve. During this phase, developers gather detailed information about user requirements, system needs, and any constraints. This helps identify what the software must do and sets clear goals for the project. Software analysis ensures that the design and implementation stages are based on accurate and complete information, reducing errors and misunderstandings later on.
+
+
+
+
+
+23) What are the key elements ofsystem design?**
+
+Ans..--> Architecture Design:**
+
+Defines the overall structure of the system, including components and how they interact.
+
+
+
+**Data Design:**
+
+Specifies how data is stored, organized, and managed (e.g., databases, data flow).
+
+
+
+**Interface Design:**
+
+Describes how users and other systems will interact with the software (UI/UX and APIs).
+
+
+
+**Component Design:**
+
+Breaks down the system into smaller modules or functions, detailing their behavior and responsibilities.
+
+
+
+**Security Design:**
+
+Plans how the system will protect data and resist threats or attacks.
+
+
+
+**Performance and Scalability Planning:**
+
+Ensures the system can handle the expected load and grow with future demand.
+
+
+
+
+
+
+
+24) Why is software testing important?**
+
+Ans..--> Software testing is important because it ensures that the software works as intended, is reliable, and is free of major bugs or issues before being released to users.
+
+
+
+25) What types ofsoftware maintenance are there?**
+
+Ans..--> Corrective Maintenance:**
+
+Fixes bugs or errors found after the software is released.
+
+**Adaptive Maintenance:**
+
+Updates the software to work with changes in the environment (e.g., new operating systems, hardware, or regulations).
+
+
+
+**Perfective Maintenance:**
+
+Improves performance or adds new features based on user feedback or changing needs.
+
+
+
+**Preventive Maintenance:**
+
+Makes changes to prevent future issues or to make the software easier to maintain (e.g., code optimization, documentation updates).
+
+
+
+26) What are the key differences between web and desktop applications?**
+
+Ans..-->Platform Dependency:**
+
+
+
+**Web Applications:** Run in a web browser and are platform-independent (can work on any device with a browser).
+
+**Desktop Applications:** Installed and run on a specific operating system (e.g., Windows, macOS).
+
+
+
+**Installation:**
+
+
+
+**Web Applications:** No installation needed; accessed via a URL.
+
+**Desktop Applications:** Must be downloaded and installed on the device.
+
+
+
+Updates:
+
+**Web Applications:** Updated on the server, so users always access the latest version.
+
+**Desktop Applications:** Need to be manually updated or reinstalled.
+
+
+
+Internet Connection:
+
+**Web Applications:** Usually require an internet connection.
+
+**Desktop Applications:** Can work offline once installed.
+
+
+
+Performance:
+
+**Web Applications:** May be slower due to browser and internet limitations.
+
+**Desktop Applications:** Often faster and can access hardware resources more directly.
+
+
+
+27) What are the advantages of using web applications over desktop applications?**
+
+Ans..--> No Installation Needed:**
+
+Users can access web apps directly through a browser without downloading or installing anything.
+
+
+
+**Cross-Platform Access:**
+
+Web apps work on any device with a browser (Windows, macOS, Linux, mobile), making them more flexible.
+
+
+
+**Easy Updates:**
+
+Developers update the app on the server, so users always get the latest version without needing to install updates.
+
+
+
+**Remote Access:**
+
+Users can access web apps from anywhere with an internet connection.
+
+
+
+**Lower Maintenance Costs:**
+
+Since updates and fixes are done centrally, maintenance is easier and more cost-effective.
+
+
+
+**Easier Collaboration:**
+
+Web apps often support real-time data sharing and collaboration (e.g., Google Docs).
+
+
+
+28) What role does UI/UX design play in application development?**
+
+Ans..--> UI (User Interface) and UX (User Experience) design are essential for creating applications that are not only functional but also enjoyable and easy to use.
+
+
+
+
+
+29) What are the differences between native and hybrid mobile apps?**
+
+Ans..--> Development Language:**
+
+
+
+**Native Apps:** Built using platform-specific languages (e.g., Swift for iOS, Kotlin/Java for Android).
+
+**Hybrid Apps:** Built using web technologies (HTML, CSS, JavaScript) and wrapped in a native container.
+
+
+
+**Performance:**
+
+
+
+**Native Apps:** Offer faster and smoother performance, better suited for complex features.
+
+**Hybrid Apps:** May be slightly slower, especially for graphics-heavy tasks.
+
+
+
+**Access to Device Features:**
+
+
+
+**Native Apps:** Full access to device hardware (camera, GPS, sensors).
+
+**Hybrid Apps:** Limited access; may rely on plugins to use native features.
+
+
+
+**User Experience:**
+
+
+
+**Native Apps:** Better UI/UX tailored to the specific platform.
+
+**Hybrid Apps:**Uniform design across platforms, which may not feel fully native.
+
+
+
+**Development Time and Cost:**
+
+
+
+**Native Apps:** More expensive and time-consuming (separate codebases for each platform).
+
+**Hybrid Apps:**Faster and more cost-effective (single codebase for multiple platforms).
+
+
+
+**Maintenance:**
+
+
+
+**Native Apps:** Harder to maintain if supporting both iOS and Android.
+
+**Hybrid Apps:** Easier to update since changes are made once for all platforms.
+
+
+
+
+
+30) What is the significance of DFDs in system analysis?**
+
+Ans..--> Data Flow Diagrams (DFDs) are important tools in system analysis because they visually represent how data moves through a system.
+
+**Clear Understanding:**
+
+DFDs help analysts, developers, and stakeholders clearly understand how data flows, where it’s stored, and how it’s processed.
+
+
+
+**Simplifies Complexity:**
+
+Complex systems can be broken down into smaller, manageable parts, making them easier to analyze and design.
+
+
+
+**Improves Communication:**
+
+DFDs use simple symbols and are easy to understand, helping both technical and non-technical people stay on the same page.
+
+
+
+**Identifies Weaknesses:**
+
+Helps spot issues like bottlenecks, redundancies, or security risks in the system early in development.
+
+
+
+**Supports System Design:**
+
+Acts as a foundation for creating system architecture, helping ensure that all functional requirements are captured.
+
+
+
+31) What are the pros and cons of desktop applications compared to webapplications?**
+
+Ans..--> Desktop apps are faster and can work offline but require installation and updates.
+
+Web apps are easier to access and maintain but depend on internet and may run slower.
+
+
+
+
+
+32) How do flowcharts help in programming and system design?**
+
+Ans..--> Flowcharts are visual diagrams that represent the flow of a process or system using symbols like arrows, rectangles, and diamonds. They play a helpful role in both programming and system design by:
+
+**Simplifying Complex Logic:**
+
+Flowcharts break down complicated processes into clear, step-by-step visuals.
+
+They help developers understand and plan logic before writing code.
+
+**Improving Communication:**
+
+Easy to understand for both technical and non-technical team members.
+
+Helps stakeholders, designers, and developers stay on the same page.
+
+**Identifying Errors Early:**
+
+By mapping out logic visually, mistakes, inefficiencies, or missing steps can be spotted before development starts.
+
+
+
+**Supporting Documentation:**
+
+Flowcharts serve as part of system documentation, helping future developers understand how the system or code works.
+
+
+
+**Aiding in Debugging and Testing:**
+
+They make it easier to trace logic and identify where something might be going wrong.
