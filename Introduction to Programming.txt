@@ -1,8 +1,5 @@
+Module 2 – Introduction to Programming
 Overview of C Programming
-Assignment 2 : Introduction To Programming 
-
-
-
 
 **1.) Write an essay covering the history and evolution of C programming. Explain**
 
